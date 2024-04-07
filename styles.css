@@ -18,7 +18,7 @@
 
 body {
   background-color: var(--bg-body);
-  
+
   display: grid;
   justify-content: center;
 
@@ -65,5 +65,5 @@ header p {
   color: var(--gray-text);
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 0 2.4rem 2.4rem;
+  padding: 2.4rem 2.4rem 3.8rem;
 }
