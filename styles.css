@@ -10,7 +10,7 @@
 
   --bg-body: #1E1E1E;
   --bg-card: #202024;
-  --blue-font: #02799D;
+  --blue-title: #02799D;
   --gray-title: #E1E1E6;
   --gray-text: #C4C4CC;
   --gray-border: #323238;
@@ -22,22 +22,21 @@ body {
   display: grid;
   justify-content: center;
 
-  padding: 7.2rem 10.4rem;
+  padding: 7.2rem 10rem 0;
 
-  -webkit-font-smoothing: antialised;
+  -webkit-font-smoothing: antialiased;
 }
 
 main {
   display: grid;
   grid-template-columns: repeat(3, 37rem);
   place-content: center;
-  margin-top: 6.2rem;
-
+  margin-top: 6rem;
   gap: 4.8rem 6rem;
 }
 
 header h1 {
-  color: var(--blue-font);
+  color: var(--blue-title);
   font-size: 5.5rem;
   font-weight: 900;
 }
@@ -51,7 +50,7 @@ header p {
 .card {
   background: var(--bg-card);
   border: 2px solid var(--gray-border);
-  border-radius: 0.8rem;
+  border-radius: .8rem;
   overflow: hidden;
 }
 
