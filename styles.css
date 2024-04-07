@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Mulish', sans-serif;
+
+  --bg-body: #1E1E1E;
+  --bg-card: #202024;
+  --blue-font: #02799D;
+  --gray-title: #E1E1E6;
+  --gray-text: #C4C4CC;
+  --gray-border: #323238;
+}
+
+body {
+  background-color: var(--bg-body);
+  
+  display: grid;
+  justify-content: center;
+
+  padding: 7.2rem 10.4rem;
+
+  -webkit-font-smoothing: antialised;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 37rem);
+  place-content: center;
+  margin-top: 6.2rem;
+
+  gap: 4.8rem 6rem;
+}
+
+header h1 {
+  color: var(--blue-font);
+  font-size: 5.5rem;
+  font-weight: 900;
+}
+
+header p {
+  color: var(--gray-title);
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 2px solid var(--gray-border);
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.card h2 {
+  color: var(--gray-title);
+  font-size: 3.6rem;
+  font-weight: 900;
+  padding: 2.4rem 2.4rem 0;
+}
+
+.card p {
+  color: var(--gray-text);
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 2.4rem 2.4rem;
+}
